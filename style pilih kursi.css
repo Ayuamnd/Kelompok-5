@@ -39,10 +39,6 @@ section {
 .seat.terpilih {
     background-color: #07daff;
 }
-.seat.unavailable {
-    background-color: darkgrey;
-    cursor: not-allowed;
-}
 table {
     border: 1px solid;
     border-collapse: collapse;
