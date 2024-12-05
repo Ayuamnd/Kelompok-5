@@ -22,21 +22,26 @@ section {
     align-content: center;
     position: relative;
     font-family: Verdana, sans-serif;
+    
 }
 .seat-s {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(10, 1fr);
     gap: 10px;
-    max-width: 600px;
+    max-width: 200px;
     margin: 20px auto;
+    justify-content: center;
 }
 .seat {
     width: 40px;
     height: 40px;
     background-color: #121111;
     cursor: auto;
+    border: 1px solid white;
+    margin: 10px;
+    border-radius: 5px;
 }
-.seat.terpilih {
+.seat.selected {
     background-color: #07daff;
 }
 table {
