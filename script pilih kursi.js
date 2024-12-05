@@ -1,5 +1,5 @@
-const row = 10;
-const cols = 8;
+const row = 5;
+const cols = 5;
 const hargakursi = 75000;
 const seatsContainer = document.getElementById('seats');
 const selectedSeatsdisplay = document.getElementById('hitung');
@@ -33,5 +33,12 @@ seatsContainer.addEventListener('click', (e) => {
     
 })
 bayar.addEventListener("click", function() {
-    window.location.href = 'https://www.youtube.com';
+    if (Selectedseats === 0){
+        alert("Silakan pilih kursi terlebih dahulu.");
+        return;
+        
+    } else {
+        window.location.href = 'halaman bayar.html';
+    }
+    
 });
