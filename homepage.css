@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #088cb8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  background-color: white;
+  background-color: #7adeff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -35,4 +35,16 @@ label {
   font-size: 16px;
   display: block;
   margin-bottom: 5px;
+}
+button {
+  padding: 5px 10px;
+  background-color: #808582;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+}
+button:hover {
+  background-color: #595f5b;
 }

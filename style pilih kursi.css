@@ -1,12 +1,13 @@
 body {
     text-align: center;
-    background-color: #7adeff;
+    background-color: #088cb8;
     justify-content: center;
     align-items: center;
     align-items: center;
     margin: 0;
     width: 100%;
-    }
+    min-height: 100vh;
+}
 
 header {
     font-family: "Ubuntu", sans-serif; 
@@ -42,23 +43,19 @@ section {
     border-radius: 5px;
 }
 .seat.selected {
-    background-color: #07daff;
+    background-color: #0ac4e5;
 }
 table {
-    border: 1px solid;
+    margin: 20px auto;
     border-collapse: collapse;
-    position: flex;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  font-size: 18px;
+    width: 55%;
 }
-td {
- text-align: center;
-}
-th {
+th, td {
+    border: 1px solid #070707;
+    padding: 10px;
     text-align: center;
 }
+
 button {
     padding: 10px 20px;
     background-color: #11b141;

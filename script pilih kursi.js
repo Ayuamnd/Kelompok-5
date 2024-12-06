@@ -1,5 +1,5 @@
-const row = 5;
-const cols = 5;
+const row = 10;
+const cols = 8;
 const hargakursi = 75000;
 const seatsContainer = document.getElementById('seats');
 const selectedSeatsdisplay = document.getElementById('hitung');
@@ -38,7 +38,7 @@ bayar.addEventListener("click", function() {
         return;
         
     } else {
-        window.location.href = 'halaman bayar.html';
+        window.location.replace('halaman bayar.html');
     }
     
 });
